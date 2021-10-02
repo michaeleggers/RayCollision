@@ -569,7 +569,7 @@ int main(int argc, char ** argv)
 			player.animation_bits = 0;
 		}
 		
-		// Setup Camera shit.
+		// Setup Camera.
 		Dimensions dim = p.window_dimensions();
 		float map_size_x = 5.0*32.0;
 		float map_size_y = 5.0*32.0;
