@@ -459,7 +459,7 @@ void gr_draw_frame_ex(Spritesheet spritesheet, float x, float y, float scale, in
 	glLoadIdentity();
 }
 
-void gr_draw_text(char * text, float x, float y, float scale)
+void gr_draw_text(char const * text, float x, float y, float scale)
 {
 	int i = 0;
 	float x_offset = 0.0f;

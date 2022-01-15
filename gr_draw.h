@@ -57,7 +57,7 @@ void gr_draw_frame_00(Spritesheet spritesheet, float x, float y, float scale, in
 void gr_draw_rect(float x, float y, float width, float height, float line_width, vec3 color);
 void gr_draw_line(float x0, float y0, float x1, float y1, float width, vec3 color);
 void gr_draw_frame_ex(Spritesheet spritesheet, float x, float y, float scale, int frame_number, int flip);
-void gr_draw_text(char * text, float x, float y, float scale);
+void gr_draw_text(char const * text, float x, float y, float scale);
 
 
 #endif
